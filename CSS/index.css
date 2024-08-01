@@ -1,7 +1,6 @@
 /* GERAL */
 /* Appresenta-se por ordem de apparecimento */
 
-
 body {
     background-color: #F0EEB5;
 }
@@ -45,13 +44,16 @@ nav {
     padding-bottom: 50px;
 }
 
+@media only screen and (min-width: 400px) {
 
-.divisor {
-    display: block;
-    margin: auto;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    .divisor {
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+        
 }
 
 #lusiadas1 {
@@ -67,12 +69,16 @@ nav {
     padding: 30px;
 }
 
-#divlema {
-    padding-top: 20px;
-}
+@media only screen and (min-width: 400px) {
 
-#logo {
-    display: block;
-    margin: auto;
-    width: 60%;
+    #divlema {
+        padding-top: 20px;
+    }
+    
+    #logo {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
 }
