@@ -1,9 +1,9 @@
 /* GERAL */
 /* Appresenta-se por ordem de apparecimento */
 
-
 body {
     background-color: #F0EEB5;
+
 }
 
 div {
@@ -28,7 +28,7 @@ p {
     color: black;
 }
 
-/* Ainda ão está a funcionar
+/* Ainda não está a funcionar
 
 a .nav:hover {
     color: #e76060;
@@ -45,13 +45,23 @@ nav {
     padding-bottom: 50px;
 }
 
+@media only screen and (min-width: 400px) {
 
-.divisor {
-    display: block;
-    margin: auto;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    #divlema {
+        padding-top: 20px;
+    }
+    
+    #logo {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+}
+
+#lema {
+    color: #BD2727;
+    padding: 30px;
 }
 
 #lusiadas1 {
@@ -62,17 +72,14 @@ nav {
     text-align: center;
 }
 
-#lema {
-    color: #BD2727;
-    padding: 30px;
-}
+@media only screen and (min-width: 400px) {
 
-#divlema {
-    padding-top: 20px;
-}
-
-#logo {
-    display: block;
-    margin: auto;
-    width: 50%;
+    .divisor {
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+        
 }

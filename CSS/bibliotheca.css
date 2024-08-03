@@ -10,6 +10,31 @@ div {
     display: block;
     margin: auto;
     width: 35%;
+    border: 25px black;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-justify: auto;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-justify: auto;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-justify: auto;
 }
 
 p {
@@ -59,28 +84,20 @@ nav {
 
 }
 
-#lema {
-    color: #BD2727;
+.livro {
+    background-color:#a09f88;
+    border-radius: 20px;
     padding: 30px;
 }
 
-#lusiadas1 {
-    font-size: 25px;
+.transferir {
+    position: relative;
+    left: 50%;
+    font-size: 20px;
     font-family: "IM Fell English", serif;
+    display: inline-block;
     font-weight: 400;
-    font-style: italic;
-    text-align: center;
-    padding-bottom: 200px;
-}
-
-@media only screen and (min-width: 400px) {
-
-    .divisor {
-        display: block;
-        margin: auto;
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-        
+    font-style: normal;
+    text-justify: auto;
+    padding: 10px;
 }
